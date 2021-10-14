@@ -1,0 +1,246 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf');
+}
+
+* {
+    font-family: Poppins-Regular;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    white-space: nowrap;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.navbar-blue {
+    background-color: #0083d9;
+    color: white;
+}
+
+.bg-blue a {
+    background-color: #0083d9;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+.home_image {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    background-image: url("../img/background_home.png");
+    width: 100%;
+    height: 94%;
+}
+
+.login {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 100%;
+    height: 94%;
+}
+
+.header {
+    padding: 50px;
+    background: #2d2937;
+    color: white;
+    font-size: 30px;
+}
+
+.header1 {
+    padding: 50px 50px 0 50px;
+    background: #2d2937;
+    color: white;
+    font-size: 30px;
+}
+
+/*button*/
+
+.buttonGroup {
+    -moz-box-shadow: 0 0 0 2px #9fb4f2;
+    -webkit-box-shadow: 0 0 0 2px #9fb4f2;
+    box-shadow: 0 0 0 2px #9fb4f2;
+    background-color:#0082d9;
+    -moz-border-radius:42px;
+    -webkit-border-radius:42px;
+    border-radius:42px;
+    border:1px solid #4e6096;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: Poppins-Regular;
+    font-size:19px;
+    padding:4px 18px;
+    text-decoration:none;
+    text-shadow:0 0 0 #283966;
+}
+.buttonGroup:hover {
+    background-color:#0082d9;
+}
+.buttonGroup:active {
+    position:relative;
+    top:1px;
+}
+
+/*inputfield*/
+
+.inputfield{
+    width: 100%;
+    min-height: 30px;
+    border-radius: 10px;
+    color: rgb(45,45,45);
+    background: rgba(0,107,197,0.4);
+    border: 1px solid #0082d9;
+}
+
+.inputfield1{
+    width: 100%;
+    min-height: 30px;
+    border-radius: 10px;
+    color: rgb(45,45,45);
+    background: rgba(0,107,197,0.4);
+    border: 1px solid #0082d9;
+}
+
+.text-red{
+    color: red;
+}
+
+.text-green{
+    color: green;
+}
+
+.info_box {
+    width: 80%;
+    height: 60px;
+    padding: 5px;
+    border: 1px solid #0082d9;
+    border-radius: 10px;
+}
+
+.expense_box {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #0082d9;
+    border-radius: 10px;
+}
+
+.nav-pills .pill-1 .nav-link:not(.active) {
+    background-color: rgba(0, 107, 197, 0.5);
+    color: white;
+}
+
+.nav-pills .pill-1 .nav-link {
+    background-color: rgba(0, 107, 197, 1);
+}
+
+.input_expense{
+    width: 35px;
+    background-color: transparent;
+}
+
+.btn_expense {
+    background-color:#0082d9;
+    -moz-border-radius:42px;
+    -webkit-border-radius:42px;
+    border-radius:42px;
+    border:1px solid #157294;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:20px;
+    padding: 0 10px 0 10px;
+    text-decoration:none;
+}
+.btn_expense:hover {
+    background-color:#0082d9;
+}
+.btn_expense:active {
+    position:relative;
+    top:1px;
+}
+
+.btn_expense1 {
+    background-color:#0082d9;
+    -moz-border-radius:42px;
+    -webkit-border-radius:42px;
+    border-radius:42px;
+    border:1px solid #157294;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:20px;
+    padding: 0 9px 0 9px;
+    text-decoration:none;
+}
+.btn_expense1:hover {
+    background-color:#0082d9;
+}
+.btn_expense1:active {
+    position:relative;
+    top:1px;
+}
+
+.devider{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.devider p{
+    color: #000;
+    align-self: center;
+    margin: 0 0.4em;
+}
+
+.devider .counter{
+    -webkit-appearance: none;
+    border: none;
+    max-width: 3em;
+    background-color: transparent;
+}
+
+.devider .counter::-webkit-outer-spin-button, .devider .counter::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.circle_navbar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #0082d9;
+    line-height: 40px;
+    text-align: center;
+    background: #fff;
+    float: left;
+}
+
+.circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    background: #0082d9;
+    float: left;
+}
+
+.description {
+    white-space: nowrap;
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
